@@ -1,7 +1,6 @@
 ---
 layout: about
 ---
-
 I program pieces of algorithmic art, bake lots of bread, work at summer camps, and (recently) attempt to knit hats. 
 
 I graduated Carleton College in 2018 with a degree in Computer Science and incredible friends. 
