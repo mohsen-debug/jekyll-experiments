@@ -40,6 +40,11 @@ layout: default
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
+    {% if page.categories[0] == 'playlists' %}
+    {% capture src %}{{page.title | slugify}}.png{% endcapture %}
+    {% include img.html src=src class='img-half' alt='album art' %}
+    {% endif %}
+    {% if page.categories[0] == 'playlists' %}{% include single-playlist.html %}{% endif %}
     {{ content }}
   </div>
 
