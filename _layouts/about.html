@@ -10,9 +10,8 @@ layout: default
     <a class="black-link" href="{{ site.url | relative_url }}"> ← {{ site.moving.back_to }} </a>
   </div>
   <div class="about-header">
-    {%- if site.moving.avatar_url -%}
-    <img class="about-avatar" src="{{ site.moving.avatar_url }}" />
-    {%- endif -%} {%- if site.author -%}
+    <img class="about-avatar" src="{{ site.url }}/assets/headshotporch.jpg" />
+    {%- if site.author -%}
     <div class="about-info">
       <div class="about-your-name">
         {{ site.author | escape }}
